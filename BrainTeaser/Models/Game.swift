@@ -6,4 +6,13 @@
 //  Copyright © 2018 Fredrik Kingell. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class Game {
+    
+    //MARK: Properties
+    var Id: Int
+    var Name: String
+    var Desc: String
+    
+}
