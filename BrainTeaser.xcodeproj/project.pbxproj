@@ -13,6 +13,7 @@
 		A85A2A6721B48FDE003F3176 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A85A2A6621B48FDE003F3176 /* Assets.xcassets */; };
 		A85A2A6A21B48FDE003F3176 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A85A2A6821B48FDE003F3176 /* LaunchScreen.storyboard */; };
 		A85A2A7521B48FDE003F3176 /* BrainTeaserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85A2A7421B48FDE003F3176 /* BrainTeaserTests.swift */; };
+		A85A2A8121B49083003F3176 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85A2A8021B49083003F3176 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		A85A2A7021B48FDE003F3176 /* BrainTeaserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrainTeaserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A85A2A7421B48FDE003F3176 /* BrainTeaserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainTeaserTests.swift; sourceTree = "<group>"; };
 		A85A2A7621B48FDE003F3176 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A85A2A8021B49083003F3176 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		A85A2A5E21B48FDD003F3176 /* BrainTeaser */ = {
 			isa = PBXGroup;
 			children = (
+				A85A2A7F21B49047003F3176 /* Models */,
 				A85A2A5F21B48FDD003F3176 /* AppDelegate.swift */,
 				A85A2A6121B48FDD003F3176 /* ViewController.swift */,
 				A85A2A6321B48FDD003F3176 /* Main.storyboard */,
@@ -94,6 +97,14 @@
 				A85A2A7621B48FDE003F3176 /* Info.plist */,
 			);
 			path = BrainTeaserTests;
+			sourceTree = "<group>";
+		};
+		A85A2A7F21B49047003F3176 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A85A2A8021B49083003F3176 /* Game.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A85A2A6221B48FDD003F3176 /* ViewController.swift in Sources */,
+				A85A2A8121B49083003F3176 /* Game.swift in Sources */,
 				A85A2A6021B48FDD003F3176 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
